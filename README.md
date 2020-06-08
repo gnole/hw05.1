@@ -9,7 +9,7 @@
 % git remote remove origin
 % hub create
 Updating origin
-https://github.com/gnole/hw05
+https://github.com/gnole/hw05.1
 % git push -u origin master
 ```
 Cоздание `CMakeLists.txt`
@@ -226,9 +226,6 @@ EOF
 Hooray, .travis.yml looks valid :)
 % travis login --auto
 Successfully logged in as gnole!
-% travis enable
-Detected repository as gnole/hw05.1, is this correct? |yes| y
-gnole/hw05.1: enabled :)
 ```
 4. Настройте [Coveralls.io](https://coveralls.io/).
 Обновление `CMakeLists.txt`
