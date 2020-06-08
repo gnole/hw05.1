@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/gnole/hw05.1.svg?branch=master)](https://travis-ci.org/gnole/hw05.1)
-[![Coverage Status](https://coveralls.io/repos/github/gnole/hw05/badge.svg?branch=master)](https://coveralls.io/github/gnole/hw05?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/gnole/hw05.1/badge.svg)](https://coveralls.io/github/gnole/hw05.1)
 ## Homework V
 
 ### Задание
