@@ -98,7 +98,7 @@ TEST(Account, Lock)
 }
 EOF
 ```
-Создание тестов для класса `Transaction`  && применение mock-объектов
+Создание тестов для класса `Transaction` && применение mock-объектов
 ```sh
 % cat >> tests/test2.cpp <<EOF
 #include <Account.h>
@@ -227,8 +227,8 @@ Hooray, .travis.yml looks valid :)
 % travis login --auto
 Successfully logged in as gnole!
 % travis enable
-Detected repository as gnole/hw05, is this correct? |yes| y
-gnole/hw05: enabled :)
+Detected repository as gnole/hw05.1, is this correct? |yes| y
+gnole/hw05.1: enabled :)
 ```
 4. Настройте [Coveralls.io](https://coveralls.io/).
 Обновление `CMakeLists.txt`
@@ -273,29 +273,6 @@ addons:
 
 EOF
 ```
-Проверка `.travis.yml` на ошибки
-```sh
-% travis lint
-Hooray, .travis.yml looks valid :)
-```
-`add`, `commit`, `push`
-```sh
-% git add .
-% git commit -m "Coveralls"
-[master bd9e4cd] Coveralls
- 2 files changed, 48 insertions(+), 3 deletions(-)
-% git push origin master   
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 791 bytes | 791.00 KiB/s, done.
-Total 4 (delta 3), reused 0 (delta 0)
-remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
-To https://github.com/gnole/hw05.git
-  9de08f9..bd9e4cd  master -> master
-```
-## Links
 
 - [C++ CI: Travis, CMake, GTest, Coveralls & Appveyor](http://david-grs.github.io/cpp-clang-travis-cmake-gtest-coveralls-appveyor/)
 - [Boost.Tests](http://www.boost.org/doc/libs/1_63_0/libs/test/doc/html/)
